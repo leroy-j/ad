@@ -22,7 +22,6 @@ import {
 
 import classnames from 'classnames'
 
-
 class Dashboard extends Component {
   constructor (props) {
     super(props)
