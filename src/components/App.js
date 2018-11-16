@@ -44,7 +44,6 @@ class App extends Component {
 					<Route exact path='/leaderboard' component={Leaderboard} />
 					<Route exact path='/logout' component={Logout} />
 					<Route exact path='/invalidQuestion' component={InvalidQuestion} />
-					
 				</Switch>
       </div>
     )
