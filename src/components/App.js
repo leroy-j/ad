@@ -27,10 +27,6 @@ class App extends Component {
     this.props.dispatch(handleInitialData())
 	}
   render(){  
-	
-	
-	
-	
     return (
       <div className="App">
 			  <Switch>
