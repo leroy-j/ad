@@ -124,7 +124,7 @@ class Dashboard extends Component {
               <Col sm="12">
                 <div>
 									{unanswered && unanswered.map(question => (
-										<Question question={question} key={question.id} />
+										<Question question={question} answered={'1'} key={question.id} />
 									))}
 								</div>
               </Col>
@@ -135,7 +135,7 @@ class Dashboard extends Component {
              <div>
             
             { answered && answered.map(question => (
-              <Question question={question} answered={true} key={question.id} />
+              <Question question={question} key={question.id} />
             ))}
           </div>
             </Row>
