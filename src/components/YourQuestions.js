@@ -31,16 +31,16 @@ class YourQuestions extends Component{
     return (
       <div>
         <Navbar auth={auth} user={user}/>
-	<Card>
-          <CardHeader><b>Your Questions</b></CardHeader>
-          <CardBody>
+	       <Card>
+           <CardHeader><b>Your Questions</b></CardHeader>
+           <CardBody>
             <div className="container user-profile">
-	      <div className="row">
-		<div className="col-md-4">
-		  <div className="profile-img">
-		    <img src={ user.avatarURL ? user.avatarURL:"https://placeholdit.imgix.net/~text?txtsize=20&txt=User&w=128&h=130"  } alt="" />
-		  </div>
-		</div>
+	            <div className="row">
+	 	           <div className="col-md-4">
+		             <div className="profile-img">
+		               <img src={ user.avatarURL ? user.avatarURL:"https://placeholdit.imgix.net/~text?txtsize=20&txt=User&w=128&h=130"  } alt="" />
+		             </div>
+		           </div>
 		<div className="col-md-6">
 		  <div className="profile-head">
 		    <h5>
