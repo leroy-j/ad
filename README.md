@@ -19,6 +19,6 @@ To use: <br>
 <br><br>
 Click create an account then enter user name and full name to get logged in<br>
 OR <br>
-To login, enter sarahedo, or johndoe.). These are default user who are already registered.
+To login, enter sarahedo, or johndoe. These are default user who are already registered.
 
 
