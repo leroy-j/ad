@@ -48,12 +48,12 @@ class Auth extends Component{
 		
     return(  
       <div>
-			  <Nav auth={this.props}/>
+	<Nav auth={this.props}/>
         <div className="centered" style={{margin:"2% 5%"}}>
-					<Card>
-						<CardHeader><b>Sign In</b></CardHeader>
-						<CardBody>
-							<CardTitle><small>Enter username to login</small></CardTitle>
+	  <Card>
+	   <CardHeader><b>Sign In</b></CardHeader>
+	   <CardBody>
+	     <CardTitle><small>Enter username to login</small></CardTitle>
 								<div>
 									{ userNotFound && (
 										<div style={{ color: "red", marginLeft: "20px" }}>Sorry, Username not found.</div>
