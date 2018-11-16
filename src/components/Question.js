@@ -35,28 +35,32 @@ class Question extends Component {
   
     return (
 		  <Row>
-			{
-				(!answered)?
-				(
-					<Col className="col-6 m-2">
-						<div className="form-check form-check-inline">
-							<input className="form-check-input" type="radio" onClick={() => this.changeOption(2)} name="inlineRadioOptions" id="inlineRadio3" value={ucFirst(question.optionTwo.text)} />
-							<label className="form-check-label" htmlFor="inlineRadio3">{ucFirst(question.optionTwo.text)}</label>
-						</div>
-					</Col>
-				)
-				
-				:
-				
-				( 	
-					<Col className="col-8 m-2">
-						<div className="form-check form-check-inline">
-							<label className="form-check-label" htmlFor="inlineRadio3">{ucFirst(question.optionTwo.text)}</label>
-						</div>
-					</Col>
-				)
-				
-			}	
+			 {
+			  	(answered && answered === '1')?
+			  	(
+			  		<Col className="col-8 m-2">
+			  			<div className="form-check form-check-inline">
+			  				<div class="form-check">
+			  					<input type="radio" class="form-check-input" id={question.id } onClick={() => this.changeOption(1)} />
+			  					<label class="form-check-label" htmlFor={question.id }>{ucFirst(question.optionOne.text)}</label>
+			  				</div>
+			  				<div class="form-check">
+			  					<input type="radio" class="form-check-input" id={question.id } onClick={() => this.changeOption(2)} />
+			  					<label class="form-check-label" htmlFor={question.id }>{ucFirst(question.optionTwo.text)}</label>
+			  				</div>
+			  				<hr />
+			  			</div>
+			  		</Col>
+			  	)
+			  	:
+			  	( 	
+			  		<Col className="col-8 m-2">
+			  			<div className="form-check form-check-inline">
+			  				<label className="form-check-label" htmlFor="inlineRadio3">{ucFirst(question.optionTwo.text)}</label>
+			  			</div>
+			  		</Col>
+			  	)
+			  }
 				
 				<Col className="col-3">
 					<Link className="btn btn-info" to={`/questions/${question.id}`}>View Polls</Link>
