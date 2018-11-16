@@ -42,7 +42,7 @@ class AddQuestion extends Component {
      return(
       <div>
 			<Nav auth={this.props.auth} user={this.props.user}/>
-        <Card>
+        <Card className ="app-margin">
           <CardHeader><b>Create New Question</b></CardHeader>
           <CardBody>
             <CardTitle><small>Enter text for option A and option B</small></CardTitle>
