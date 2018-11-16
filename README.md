@@ -1,12 +1,21 @@
 
 Would You Rather App <br><br>
 
-To use: 
-  1 Run npm install<br>
-  2 Run npm start
+This App was created as part of the requirements from Udacity's Professional React Developer cdertification<br><br>
 
-Once installed Navigate the the location of   
-Enter your username and your full name to register
-Click on the Login button and Enter your username to login (Sarah Edo, Tyler McGinnis, and John Doe.) if you are already registered.
+In this App users present questions with two options. All participants who which to share an an answer to any questions can vote by clicking the question option.<br><br>
 
-Answer the questions and feel free to add more questions to be on top of the leaderboard!
+Users are free to add more questions and answer as many questions as they wish<br><br>
+
+To use: <br>
+  1. Down load/clone the repository to your local computer<br>
+  2. Navigate to the location of the downloaded file<br>
+   a Run npm install<br>
+   b Run npm start
+
+<br><br>
+Click create an account then enter user name and full name to get logged in<br>
+OR <br>
+To login, ender sarahedo, or johndoe.). These are default user who are already registered.
+
+
