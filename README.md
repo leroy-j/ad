@@ -11,6 +11,7 @@ To use: <br>
   1. Down load/clone the repository to your local computer<br>
   2. Navigate to the location of the downloaded file<br>
    a. Run npm install<br>
+   c. You will need to install this node module: <a href="https://www.npmjs.com/package/axios"> Axios</a><br>
    b. Run npm start<br>
    c. If npm ran successfully, a new browser wiondow should open and pointed to localhost:3000. if not open a new browser window and navigate to localhost:3000
    
