@@ -191,5 +191,5 @@ function mapStoreToComponent(store,propsFromwithRouter) { //mapStoreToComponent{
   }
 }
 
-//The Redux store available to connect() and is then passed to mapStoreToComponent
+//The Redux store is available to connect() and is then passed to mapStoreToComponent
 export default withRouter(connect(mapStoreToComponent)(Dashboard))
