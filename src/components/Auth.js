@@ -51,18 +51,18 @@ class Auth extends Component{
 	<Nav auth={this.props}/>
         <div className="centered" style={{margin:"2% 5%"}}>
 	  <Card>
-	   <CardHeader><b>Sign In</b></CardHeader>
-	   <CardBody>
+	   <CardHeader><b>Sign In</b></CardHeader>	   
+			<CardBody>
 	     <CardTitle><small>Enter username to login</small></CardTitle>
-								<div>
-									{ userNotFound && (
-										<div style={{ color: "red", marginLeft: "20px" }}>Sorry, Username not found.</div>
-									)}
-									<Form onSubmit={this.handleLogin}>
-										<div className="container">
-											<div className="row align-items-start mb-2">
-												<div className="col">
-													<input 
+	     <div>
+	       { userNotFound && (
+				<div style={{ color: "red", marginLeft: "20px" }}>Sorry, Username not found.</div>
+		)}
+		<Form onSubmit={this.handleLogin}>
+		  <div className="container">
+		    <div className="row align-items-start mb-2">
+				  <div className="col">
+						<input 
 														className="form-control form-control-lg" 
 														type="text" 
 														name="Username"
