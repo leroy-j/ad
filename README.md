@@ -1,7 +1,7 @@
 
 Would You Rather App <br><br>
 
-This App was created as part of the requirements from Udacity's Professional React Developer cdertification<br><br>
+This App was created as part of the requirements from Udacity's Professional React Developer certification<br><br>
 
 In this App users present questions with two options. All participants who which to share an an answer to any questions can vote by clicking the question option.<br><br>
 
