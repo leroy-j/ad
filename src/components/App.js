@@ -13,7 +13,7 @@ import AddQuestion from './AddQuestion'
 import YourQuestions from './YourQuestions'
 import Leaderboard from './Leaderboard'
 import InvalidQuestion from './InvalidQuestion'
-import NotFound from './NotFound'
+//import NotFound from './NotFound'
 
 class App extends Component {
 	
