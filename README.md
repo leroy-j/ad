@@ -1,6 +1,11 @@
-1 Run npm install<br>
-2 Run npm start
 
+Would You Rather App <br><br>
+
+To use: 
+  1 Run npm install<br>
+  2 Run npm start
+
+Once installed Navigate the the location of   
 Enter your username and your full name to register
 Click on the Login button and Enter your username to login (Sarah Edo, Tyler McGinnis, and John Doe.) if you are already registered.
 
