@@ -55,8 +55,9 @@ class Question extends Component {
 			  	:
 			  	( 	
 			  		<Col className="col-8 m-2">
-			  			<div className="form-check form-check-inline">
-			  				<label className="form-check-label" htmlFor="inlineRadio3">{ucFirst(question.optionTwo.text)}</label>
+			  			<div className="form-check">
+			  				<label className="form-check-label">{ucFirst(question.optionOne.text)}</label>
+                <label className="form-check-label">{ucFirst(question.optionTwo.text)}</label>
 			  			</div>
 			  		</Col>
 			  	)
