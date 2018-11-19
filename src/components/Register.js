@@ -30,7 +30,6 @@ class Register extends Component {
       }
     })
 		
-		
 		axios.get('https://randomuser.me/api/?gender='+gender+'&incl=picture&exc=gender,login,location,cell,dob,email,name')
 			.then(function (response){
 				let image = response.data.results[0].picture.large || "";
