@@ -22,6 +22,7 @@ class Register extends Component {
     e.preventDefault()
     const username = e.target[0].value
     const name = e.target[1].value
+		const gender = e.target[2].value
     const { users, dispatch } = this.props
     users.forEach(user => {
       if (user === username) {
@@ -30,7 +31,7 @@ class Register extends Component {
     })
 		
 		
-		axios.get('https://randomuser.me/api/?incl=picture&exc=gender,login,location,cell,dob,email,name')
+		axios.get('https://randomuser.me/api/?gender='+gender+'&incl=picture&exc=gender,login,location,cell,dob,email,name')
 			.then(function (response){
 				let image = response.data.results[0].picture.large || "";
 				dispatch(handleUserRegistration(username, name,image))
@@ -87,6 +88,13 @@ class Register extends Component {
 													/>
 												</div>
 											</div>
+											<div class="align-items-start mb-2">
+     									  <select class="custom-select mr-3" name="gender"  style={{width: "30%"}}>
+        								  <option selected>Gender</option>
+        								  <option value="1">Male</option>
+           								<option value="2">Female</option>
+                       </select>
+                     </div>
 											
 											<div className="row align-items-center">
 												<div className="col">
