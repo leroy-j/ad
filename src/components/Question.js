@@ -40,13 +40,13 @@ class Question extends Component {
 			  	(
 			  		<Col className="col-8 m-2">
 			  			<div className="form-check form-check-inline">
-			  				<div class="form-check">
-			  					<input type="radio" class="form-check-input" id={question.id } onClick={() => this.changeOption(1)} />
-			  					<label class="form-check-label" htmlFor={question.id }>{ucFirst(question.optionOne.text)}</label>
+			  				<div className="form-check">
+			  					<input type="radio" className="form-check-input" id={question.id } onClick={() => this.changeOption(1)} />
+			  					<label className="form-check-label" htmlFor={question.id }>{ucFirst(question.optionOne.text)}</label>
 			  				</div>
-			  				<div class="form-check">
-			  					<input type="radio" class="form-check-input" id={question.id } onClick={() => this.changeOption(2)} />
-			  					<label class="form-check-label" htmlFor={question.id }>{ucFirst(question.optionTwo.text)}</label>
+			  				<div className="form-check">
+			  					<input type="radio" className="form-check-input" id={question.id } onClick={() => this.changeOption(2)} />
+			  					<label className="form-check-label" htmlFor={question.id }>{ucFirst(question.optionTwo.text)}</label>
 			  				</div>
 			  				<hr />
 			  			</div>
